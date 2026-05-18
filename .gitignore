@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# Large generated data
+data/synthetic_orderline_2024.parquet
+data/synthetic_orderline_2024.csv.gz
+data/*.parquet
+
+# Model files
+models/
+*.joblib
+*.pkl
+
+# Temporary files
+tmp/
+temp/
+*.log
